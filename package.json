@@ -1,0 +1,20 @@
+{
+  "name": "a-star",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "elm": "^0.18.0",
+    "elm-live": "^2.6.0"
+  },
+  "devDependencies": {
+    "elm": "^0.18.0",
+    "elm-live": "^2.6.0"
+  },
+  "scripts": {
+    "start": "./node_modules/elm-live/bin/elm-live.js src/Main.elm --output=static/elm.js --dir=static --pushstate",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
