@@ -6,4 +6,8 @@ Quick experiment porting [`Data.Graph.AStar`](https://hackage.haskell.org/packag
 
 Using a local 0.18-upgraded version of [elm-pairing-heap](http://package.elm-lang.org/packages/rhofour/elm-pairing-heap/latest) for the priority queue.
 
-Comes with a demo: `npm install` then `npm start` to launch an editable grid with a path that will route around the walls you build.
+## Demo
+
+View the [online demo](http://mattsenior-elm-astar.surge.sh/) or run it yourself with `npm install` then `npm start`.
+
+You’ll see an editable grid with a path that will automatically route around the walls you build.
