@@ -1,4 +1,4 @@
-# A* Pathfinding with Elm
+# A* Pathfinding in Elm
 
 ![Example of a path found between two points](./snap.png)
 

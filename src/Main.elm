@@ -271,7 +271,8 @@ viewBoardRow model row tiles =
 view : Model -> Html Msg
 view model =
     Html.div []
-        [ model.board
+        [ Html.h1 [] [ Html.text "A* Pathfinding in Elm" ]
+        , model.board
             |> Matrix.toList
             |> List.indexedMap (viewBoardRow model)
             |> Html.div [ HtmlA.class "board" ]
